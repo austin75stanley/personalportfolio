@@ -1,0 +1,69 @@
+body{
+    margin:0px;
+    padding:0px;
+
+}
+.first-color{
+  background:#262626;
+  padding:40px 0px;
+}
+.second-color{
+    background:#800000;
+    padding:35px 0px;
+}
+ul li{
+    list-style-type:none;
+    float:right;
+    font-size:30px;
+    padding:0px 15px;
+    margin-top: -19px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+a:hover{
+    color: #262626;
+}
+.mid-page{
+    background:#262626;
+    padding:230px 0px;
+    opacity: 0.9;
+   
+}
+.mid-page h1{
+    color:white;
+    font-size:60px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    margin-top:-24px;
+}
+.mid-page h5{
+    color: #800000;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    text-shadow: #262626;
+
+
+}
+.img-section{
+ background:#2471A3;
+ padding:300px 0px;
+
+}
+.text-projects{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size:30px;
+    line-height: 5px;
+    text-decoration:underline;
+    word-spacing: 5px;
+    font-style: inherit;
+    margin-top: -230px;
+    text-underline-position: under;
+}
