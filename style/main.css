@@ -1,6 +1,8 @@
 body{
     margin:0px;
     padding:0px;
+  
+   
 
 }
 .header-items{
@@ -12,6 +14,7 @@ body{
 .first-color{
   background:#262626;
   padding:40px 0px;
+ 
 
 }
 .second-color{
@@ -39,7 +42,7 @@ a:hover{
     background:#262626;
     padding:320px 0px;
    
-   
+    
 }
 .mid-page h1{
     color:white;
@@ -60,8 +63,9 @@ a:hover{
 }
 .img-section{
  background:#2471A3;
- padding:290px 0px;
 
+ padding:290px 0px;
+ 
 }
 .text-projects{
     color: white;
@@ -74,4 +78,159 @@ a:hover{
     font-style: inherit;
     margin-top: -230px;
     text-underline-position: under;
+}
+.img-3{
+    display: flex;
+    padding-top:25px;
+    padding-bottom:25px;
+    padding-left:30px;
+    padding-right:30px;
+    justify-content: space-between; 
+    
+ 
+
+}
+img{
+    width:450px;
+    height:60vh;
+    border-bottom-color: #262626;
+    border-bottom-width: 60px;
+    border-bottom-style: solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    object-fit: cover;
+
+
+}
+.tribute-page {
+    margin-top:-40px;
+    padding-left:150px;
+    font-size: 20px;
+    font-weight:900;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    
+}
+a:hover{
+  color:white;
+    
+}
+.code{
+    color:orangered;
+    transition-timing-function: 0.3s ease-out;/* to continue tomorrow*/
+    
+}
+.random-quote{
+    font-size: 20px;
+    font-weight:900;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    margin-top:-40px;
+    padding-left:100px; 
+}
+.object-oriented{
+    font-size: 20px;
+    font-weight:900;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    margin-top:-40px;
+    padding-left:100px;
+
+}
+.img-6{
+    display: flex;
+    padding-top:25px;
+    padding-bottom:25px;
+    padding-left:30px;
+    padding-right:30px;
+    justify-content: space-between; 
+}
+.globe{
+    font-size: 20px;
+    font-weight:900;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    margin-top:-40px;
+    padding-left:100px;
+
+}
+.love{
+    font-size: 20px;
+    font-weight:900;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    margin-top:-40px;
+    padding-left:130px; 
+}
+.computer{
+    font-size: 20px;
+    font-weight:900;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    margin-top:-40px;
+    padding-left:100px;
+}
+.final-button{
+    position: relative;
+    left:45%;
+    margin-top:100px;
+   
+}
+button{
+    background:#262626;
+    color:white;
+    padding:15px;
+    font-size:20px;
+    border:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius:5px;
+}
+.footer-section{
+    background: #262626;
+    padding:250px;
+    
+}
+.final-sec{
+    margin-top:-80px;
+}
+.final-sec h1{
+    text-align: center;
+    color:white;
+    font-size: 60px;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+ p{
+   text-align: center;
+   color:white;
+   font-style: italic;
+   font-weight: 900;
+   font-size: 20px;
+   padding-top:-10px; 
+
+
+}
+.contact-details{
+    padding-top:90px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display:flex;
+    justify-content: space-evenly;
+}
+.contact-details a:hover{
+ color:royalblue;
+}
+.border-red{
+   
+    border-top:2px solid red;
+    background: #262626;
+    padding:100px;
+}
+.fake-portfolio{
+    float:left;
+}
+.copyright{
+    float:right;
 }
